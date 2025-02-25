@@ -1,0 +1,74 @@
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px; /* Start with collapsed width */
+    height: 100vh;
+    background-color: white;
+    transition: width 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    overflow: hidden;
+    z-index: 1000;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark transparent background */
+    backdrop-filter: blur(5px); /* Apply blur effect */
+    z-index: 998; /* Below the navbar */
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar.expanded {
+    width: 400px; /* Expand to full width */
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 24px;
+    color: black;
+    position: absolute;
+    top: 100px; /* Adjust as needed */
+    left: 50px; /* Adjust as needed */
+    z-index: 10; /* Ensures the icon is always clickable */
+}
+
+.icon svg {
+    height: 40px;
+    width: 40px;
+}
+.navbar .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 80px;
+    margin-left: 50px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.navbar.expanded .links {
+    opacity: 1;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-family: monospace;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    transition: background 0.2s;
+}
+
+.navbar .links a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
