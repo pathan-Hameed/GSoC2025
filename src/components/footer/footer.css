@@ -1,0 +1,32 @@
+.footer {
+    padding: 50px 200px;
+    height: fit-content;
+    /* max-height: 300px; */
+    width: 100%;
+    background: white;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 100px;
+    /* border: 1px solid; */
+}
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer li {
+    list-style: none;
+}
+.footer a {
+    text-decoration: none;
+    text-align: left;
+    font-family: poppins;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.792);
+}
+.footer a:hover {
+    text-decoration: underline;
+}

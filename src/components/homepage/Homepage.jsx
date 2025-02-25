@@ -1,14 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Homepage.css";
-import Navbar from "./navbar";
 
 export default function Homepage() {
   return (
     <div id="homepage">
-        <Navbar />
 
-      <div className="main-section">
+      <div className="main-section" id="main-section">
         <div className="main-article">
           <div className="heading">
             <h1>
@@ -28,33 +26,7 @@ export default function Homepage() {
         </div>
       </div>
 
-      <div className="example-section">
-        <div className="sub-heading">
-          <h1>Example:</h1>
-        </div>
-        <div className="sub-content">
-          <p>
-            Imagine you’re working on a project to improve a weather app that’s
-            used by millions of people. Your job might be to add a new feature,
-            like showing air quality, or fixing bugs in the app. You’ll write
-            code, test it, and make sure it works perfectly. Your mentors will
-            help you every step of the way.
-          </p>
-        </div>
-      </div>
-
-      <div className="since-section">
-        <div className="since-content">
-          <p>
-            Since 2005, the Google Summer of Code program has connected 19,000+
-            new open source contributors from 112 countries with 18,000+ mentors
-            from 133 countries. Google Summer of Code has produced over 43
-            million lines of code for 800+ open source organizations.
-          </p>
-        </div>
-      </div>
-
-      <div className="why-section">
+       <div className="why-section">
         <div className="sub-heading">
           <h1>Why Should You Care?</h1>
         </div>
@@ -113,9 +85,35 @@ export default function Homepage() {
         </div>
       </div>
 
+      <div className="since-section">
+        <div className="since-content">
+          <p>
+            Since 2005, the Google Summer of Code program has connected 19,000+
+            new open source contributors from 112 countries with 18,000+ mentors
+            from 133 countries. Google Summer of Code has produced over 43
+            million lines of code for 800+ open source organizations.
+          </p>
+        </div>
+      </div>
+
+      <div className="example-section">
+        <div className="sub-heading">
+          <h1>Example:</h1>
+        </div>
+        <div className="sub-content">
+          <p>
+            Imagine you’re working on a project to improve a weather app that’s
+            used by millions of people. Your job might be to add a new feature,
+            like showing air quality, or fixing bugs in the app. You’ll write
+            code, test it, and make sure it works perfectly. Your mentors will
+            help you every step of the way.
+          </p>
+        </div>
+      </div>
+
       <div className="eligible-section">
         <div className="eligible-image">
-          <img src="eligible.jpg"/>
+          <img src="eligible.jpg" alt="eligible.jpg"/>
         </div>
         <div className="eligible-content">
           <h1>GSoC contributor eligibility</h1>
@@ -189,6 +187,7 @@ export default function Homepage() {
           </a>
         </ul>
       </div>
+
     </div>
   );
 }
