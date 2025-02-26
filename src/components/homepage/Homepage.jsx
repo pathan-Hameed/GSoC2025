@@ -1,11 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";  // Import Link
 import "./Homepage.css";
 
 export default function Homepage() {
   return (
     <div id="homepage">
-
       <div className="main-section" id="main-section">
         <div className="main-article">
           <div className="heading">
@@ -26,7 +26,7 @@ export default function Homepage() {
         </div>
       </div>
 
-       <div className="why-section">
+      <div className="why-section">
         <div className="sub-heading">
           <h1>Why Should You Care?</h1>
         </div>
@@ -96,41 +96,226 @@ export default function Homepage() {
         </div>
       </div>
 
-      <div className="example-section">
-        <div className="sub-heading">
-          <h1>Example:</h1>
+      <div className="organizations">
+        <h1 className="section-title">Mentor Organisations</h1>
+
+        <div className="domain-section">
+          <h3 className="domain-title">
+            Artificial Intelligence & Machine Learning
+          </h3>
+          <div className="row row-cols-1 row-cols-md-2 g-4">
+            <div className="col">
+              <div className="card">
+                <img
+                  src="TensorFlow.png"
+                  className="card-img-top"
+                  alt="TensorFlow logo"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">TensorFlow</h5>
+                  <p className="card-text">
+                    {" "}
+                    Google’s open-source machine learning framework.
+                  </p>
+                </div>
+              </div>
+            </div> 
+            <div className="col">
+              <div className="card">
+                <img
+                  src="opencv.png"
+                  className="card-img-top"
+                  alt="OpenCV logo"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">OpenCV</h5>
+                  <p className="card-text">
+                    {" "}
+                    Open-source computer vision and image processing.
+                  </p>
+                </div>
+              </div>
+            </div> 
+            <div className="col">
+              <div className="card">
+                <img
+                  src="scikit-learn-logo.png"
+                  className="card-img-top"
+                  alt="SciKit-Learn logo"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">SciKit-Learn</h5>
+                  <p className="card-text">
+                    {" "}
+                    Machine learning for Python.
+                  </p>
+                </div>
+              </div>
+            </div> 
+            <div className="col">
+              <div className="card">
+                <img
+                  src="ml4sci.png"
+                  className="card-img-top"
+                  alt="blender logo"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">ML4SCI (Machine Learning for Science) </h5>
+                  <p className="card-text">
+                    {" "}
+                    AI/ML applications in scientific research.
+                  </p>
+                </div>
+              </div>
+            </div> 
+          </div>
         </div>
-        <div className="sub-content">
-          <p>
-            Imagine you’re working on a project to improve a weather app that’s
-            used by millions of people. Your job might be to add a new feature,
-            like showing air quality, or fixing bugs in the app. You’ll write
-            code, test it, and make sure it works perfectly. Your mentors will
-            help you every step of the way.
-          </p>
+
+        <div className="domain-section">
+          <h3 className="domain-title">
+           Web Development & Frameworks
+          </h3>
+          <div className="row row-cols-1 row-cols-md-2 g-4">
+            <div className="col">
+              <div className="card">
+                <img
+                  src="Django_logo.png"
+                  className="card-img-top"
+                  alt="Django Software Foundation logo"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Django Software Foundation</h5>
+                  <p className="card-text">
+                    {" "}
+                    Python’s leading web framework.
+                  </p>
+                </div>
+              </div>
+            </div> 
+            <div className="col">
+              <div className="card">
+                <img
+                  src="Ruby_on_Rails-Logo.png"
+                  className="card-img-top"
+                  alt="Ruby on Rails logo"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Ruby on Rails</h5>
+                  <p className="card-text">
+                    {" "}
+                    Open-source computer vision and image processing.
+                  </p>
+                </div>
+              </div>
+            </div> 
+            <div className="col">
+              <div className="card">
+                <img
+                  src="rocket-chat.png"
+                  className="card-img-top"
+                  alt="Rocket.Chat logo"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Rocket.Chat</h5>
+                  <p className="card-text">
+                    {" "}
+                    Open-source chat platform like Slack
+                  </p>
+                </div>
+              </div>
+            </div> 
+            <div className="col">
+              <div className="card">
+                <img
+                  src="Apache_Software_Foundation_Logo.png"
+                  className="card-img-top"
+                  alt="Apache Software Foundation logo"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Apache Software Foundation </h5>
+                  <p className="card-text">
+                    {" "}
+                    AI/ML applications in scientific research.
+                  </p>
+                </div>
+              </div>
+            </div> 
+          </div>
         </div>
+        <div className="domain-section">
+          <h3 className="domain-title">
+          Scientific Computing & Data Science
+          </h3>
+          <div className="row row-cols-1 row-cols-md-2 g-4">
+            <div className="col">
+              <div className="card">
+                <img
+                  src="numfocus.png"
+                  className="card-img-top"
+                  alt="NumFOCUS logo"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">NumFOCUS</h5>
+                  <p className="card-text">
+                    {" "}
+                    Supports projects like NumPy, SciPy, pandas, and Jupyter
+                  </p>
+                </div>
+              </div>
+            </div> 
+            <div className="col">
+              <div className="card">
+                <img
+                  src="sunpy_logo.png"
+                  className="card-img-top"
+                  alt="SunPy logo"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">SunPy</h5>
+                  <p className="card-text">
+                    {" "}
+                    Python for solar physics research.
+                  </p>
+                </div>
+              </div>
+            </div> 
+            <div className="col">
+              <div className="card">
+                <img
+                  src="odc.png"
+                  className="card-img-top"
+                  alt="Open Data Cube logo"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Open Data Cube</h5>
+                  <p className="card-text">
+                    {" "}
+                    Analyzing satellite imagery and geospatial data.
+                  </p>
+                </div>
+              </div>
+            </div> 
+            <div className="col">
+              <div className="card">
+                <img
+                  src="OSGeo_logo.png"
+                  className="card-img-top"
+                  alt="OSGeo logo"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">OSGeo (Open Source Geospatial Foundation)</h5>
+                  <p className="card-text">
+                    {" "}
+                    Geographic information systems (GIS).
+                  </p>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <Link to="/organizations" className="explore-more">More Mentor Organizations</Link>
       </div>
 
-      <div className="eligible-section">
-        <div className="eligible-image">
-          <img src="eligible.jpg" alt="eligible.jpg"/>
-        </div>
-        <div className="eligible-content">
-          <h1>GSoC contributor eligibility</h1>
-          <ol>
-            <li><p>Must be at least 18 years old at time of registration.</p></li>
-            <li>Must be a student or an open source beginner.</li>
-            <li >
-              Must be eligible to work in their country of residence during
-              duration of program.
-            </li>
-            <li>
-              Must be a resident of a country not currently embargoed by the
-              United States.
-            </li>
-          </ol>
-        </div>
-      </div>
 
       <div className="working-section">
         <div className="section-title">
@@ -170,24 +355,54 @@ export default function Homepage() {
         </ol>
       </div>
 
+      <div className="eligible-section">
+        <div className="eligible-image">
+          <img src="eligible.jpg" alt="eligible.jpg" />
+        </div>
+        <div className="eligible-content">
+          <h1>GSoC contributor eligibility</h1>
+          <ol>
+            <li>
+              <p>Must be at least 18 years old at time of registration.</p>
+            </li>
+            <li>Must be a student or an open source beginner.</li>
+            <li>
+              Must be eligible to work in their country of residence during
+              duration of program.
+            </li>
+            <li>
+              Must be a resident of a country not currently embargoed by the
+              United States.
+            </li>
+          </ol>
+        </div>
+      </div>
+
       <div className="link-section">
         <div className="link-title">Frequently Asked Questions</div>
         <ul className="links">
           <a href="">
-            <li className="link-box">How can I increase my chances of getting selected for GSoC?</li>
+            <li className="link-box">
+              How can I increase my chances of getting selected for GSoC?
+            </li>
           </a>
           <a href="">
-            <li className="link-box">How do I choose the right organization and project?</li>
+            <li className="link-box">
+              How do I choose the right organization and project?
+            </li>
           </a>
           <a href="">
-            <li className="link-box">What should I include in my GSoC proposal?</li>
+            <li className="link-box">
+              What should I include in my GSoC proposal?
+            </li>
           </a>
           <a href="">
-            <li className="link-box">How much coding experience is required for GSoC?</li>
+            <li className="link-box">
+              How much coding experience is required for GSoC?
+            </li>
           </a>
         </ul>
       </div>
-
     </div>
   );
 }

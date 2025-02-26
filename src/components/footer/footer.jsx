@@ -29,17 +29,20 @@ export default function Footer() {
           <Link to="/getstarted">Get Started</Link>
         </li>
         <li>
+          <Link to="/organization"> Mentor Organisations</Link>
+        </li>
+        <li>
           <Link to="/Timeline">Timeline</Link>
         </li>
         <li>
           <Link to="/Questions">Q&A</Link>
         </li>
-        <li>
-          <Link to="/About">About</Link>
-        </li>
       </ul>
 
       <ul className="other-links">
+        <li>
+          <Link to="/About">About</Link>
+        </li>
       <li>
           <Link to="/Help">Help</Link>
         </li>
