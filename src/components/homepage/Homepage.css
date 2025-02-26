@@ -101,7 +101,7 @@
   text-align: center;
   border: none;
   border-radius: 10px;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Softer shadow Box shadow */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);/* Softer shadow Box shadow */
 }
 
 .reason-section1 .card .card-body {
@@ -186,7 +186,7 @@
   background: white;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Softer shadow Box shadow */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Softer shadow Box shadow */
   transition: box-shadow 0.3s ease-in-out;
   border: none;
 }
@@ -196,8 +196,9 @@
 }
 
 .domain-section .card-img-top {
-  width: 100%;
+  width: 60%;
   height: 150px;
+  align-self: center;
 }
 
 .domain-section .card-body {
@@ -214,7 +215,7 @@
   color: #555;
 }
 
-.explore-more {
+.view-bttn {
     margin: 50px 0;
     padding: 15px 0;
     width: 450px;
@@ -232,7 +233,7 @@
     transition: box-shadow 0.3s ease-in-out;
 }
 
-.explore-more:hover {
+.view-bttn:hover {
       box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
 }
 

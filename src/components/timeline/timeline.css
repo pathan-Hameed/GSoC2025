@@ -1,0 +1,79 @@
+.timeline-section {
+  background: #f3f3f3;
+}
+
+.timeline-section .section-title {
+    padding: 100px 250px;
+    height: 350px;
+    background: #008fa5;
+  font-family: monospace;
+  font-size: 56px;
+  font-weight: 500;
+  color: white;
+  text-align: left;
+}
+
+.timeline {
+  padding: 0px 100px;
+  position: relative;
+  max-width: 100%;
+  margin: 50px auto;
+  padding-left: 350px;
+}
+
+
+/* Vertical line now starts from the first point and ends at the last */
+.timeline::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background: #ff9900;
+  left: 360px; /* Aligns with dots */
+
+  /* Dynamically starts from the first point and ends at the last */
+  top: 28px; /* Adjusted to match first dot */
+  bottom: 145px; /* Adjusted to match last dot */
+}
+
+.timeline-item {
+  position: relative;
+  padding: 20px 0;
+  padding-left: 50px;
+}
+
+.timeline-dot {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #ff9900;
+  border-radius: 50%;
+  left: 12px; /* Aligns dot exactly on the line */
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.timeline-content {
+  padding: 0px 16px;
+  display: inline-block;
+}
+
+.timeline-title {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: monospace;
+  color: black;
+  margin-bottom: 4px;
+}
+
+.timeline-date {
+  font-size: 18px;
+  color: #000000;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.timeline-info {
+  font-family: monospace;
+  font-size: 16px;
+  color: #333;
+}

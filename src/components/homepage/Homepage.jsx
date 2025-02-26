@@ -313,7 +313,7 @@ export default function Homepage() {
             </div> 
           </div>
         </div>
-        <Link to="/organizations" className="explore-more">More Mentor Organizations</Link>
+        <Link to="/organizations" className="view-bttn">Explore Mentor Organizations</Link>
       </div>
 
 
