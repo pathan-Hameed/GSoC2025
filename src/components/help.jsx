@@ -20,9 +20,7 @@ export default function Help() {
         <p className="home-links">
           How to Apply? <a href="https://youtu.be/YN7uGCg5vLg?si=jg7XxJ84zPzPpdgd">Learn Here</a>
         </p>
-        <p className="home-links">
-          Know the Timeline <Link href="/timeline">Click Here</Link>
-        </p>
+        <p className="home-links">Know the Timeline  <Link to="/timeline">Click Here</Link></p>
         <p className="home-links">
           2025 GSoC Organisations Announced <a href="https://summerofcode.withgoogle.com/programs/2025/organizations">Explore Here</a>
         </p>
