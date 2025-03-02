@@ -77,7 +77,7 @@ export default function Timeline() {
           </div>
         ))}
       </div>
-      <p className="home-links">2025 GSoC Organisations Announced  <Link to="/timeline">Explore Here</Link></p>
+      <p className="home-links">2025 GSoC Organisations Announced  <Link to="https://summerofcode.withgoogle.com/programs/2025/organizations">Explore Here</Link></p>
       <p className="home-links"> For GSoC related refferals, Success stories video links and more...Visit   <Link to="/help">Help Section</Link></p>
     </div>
   );
