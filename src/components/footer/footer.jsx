@@ -28,11 +28,12 @@ export default function Footer() {
         <li>
           <Link to="/getstarted">Get Started</Link>
         </li>
-        <li>
-          <a href="https://summerofcode.withgoogle.com/programs/2025/organizations"> Mentor Organisations</a>
-        </li>
+        
         <li>
           <Link to="/Timeline">Timeline</Link>
+        </li>
+        <li>
+          <a href="https://summerofcode.withgoogle.com/programs/2025/organizations"> Mentor Organisations</a>
         </li>
         <li>
           <Link to="/Questions">Q&A</Link>
@@ -50,7 +51,7 @@ export default function Footer() {
           <Link to="/Moreblogs">More Blogs</Link>
         </li>
       <li>
-          <Link to="/Contact">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
 

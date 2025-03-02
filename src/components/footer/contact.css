@@ -1,0 +1,26 @@
+.contact-section {
+    background: #f3f3f3;
+}
+
+.contact-section .section-title {
+    padding: 100px 250px;
+    height: 350px;
+    background: #008fa5;
+  font-family: monospace;
+  font-size: 56px;
+  font-weight: 500;
+  color: white;
+  text-align: left;
+}
+
+.contact-section .home-sub-title {
+    padding: 50px 250px;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contact-section .home-links {
+    padding: 0px 250px;
+    padding-bottom: 50px;
+}
