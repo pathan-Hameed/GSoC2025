@@ -29,8 +29,8 @@ export default function About() {
           toward open-source development with GSoC! 🚀
         </p>
         
-        <p className="home-links">Visit Official Website Of <a href="/timeline">Google Summer Of Code</a> For More Information</p>
-        <p className="home-links"> For GSoC related refferals, Success stories video links and more...Visit   <a href="/help">Help Section</a></p>
+        <p className="home-links">Visit Official Website Of <a href="https://summerofcode.withgoogle.com/">Google Summer Of Code</a> For More Information</p>
+        <p className="home-links"> For GSoC related refferals, Success stories video links and more...Visit   <Link href="/help">Help Section</Link></p>
       </div>
     </div>
   );

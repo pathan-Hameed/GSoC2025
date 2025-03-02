@@ -1,5 +1,6 @@
 import React from "react";
 import "./help.css";
+import { Link } from "react-router-dom";
 
 export default function Help() {
   return (
@@ -14,19 +15,16 @@ export default function Help() {
           </a>
         </p>
         <p className="home-links">
-          What is Open Source Organisation? <a href="">Learn Here</a>
+          What is Open Source Organisation? <a href="https://www.youtube.com/@GoogleDevelopers/videos">Learn Here</a>
         </p>
         <p className="home-links">
-          How to Apply? <a href="">Learn Here</a>
+          How to Apply? <a href="https://youtu.be/YN7uGCg5vLg?si=jg7XxJ84zPzPpdgd">Learn Here</a>
         </p>
         <p className="home-links">
-          Know the Timeline <a href="/timeline">Click Here</a>
+          Know the Timeline <Link href="/timeline">Click Here</Link>
         </p>
         <p className="home-links">
-          2025 GSoC Organisations Announced <a href="/timeline">Explore Here</a>
-        </p>
-        <p className="home-links">
-          Know the Timeline <a href="/timeline">Click Here</a>
+          2025 GSoC Organisations Announced <a href="https://summerofcode.withgoogle.com/programs/2025/organizations">Explore Here</a>
         </p>
 
         <h1 className="home-sub-title">Other Refferals:</h1>
@@ -56,7 +54,7 @@ export default function Help() {
           GSoC Guide by Nishat chahar <a href="https://youtu.be/XvSJ0KvFGDY?si=9S6QoHNXcXW6awnY">Click Here</a>
         </p>
         <p className="home-links">
-        Google Summer of Code: How To Crack It In 2025 STEP BY STEP | #151 The Sanskar Show by Sanskar Goyal <a href="https://youtu.be/BxbgmP6ScmY?si=7hSrCWOhOWHc0-q5">Click Here</a>
+        Google Summer of Code: How To Crack It In 2025 STEP BY STEP | The Sanskar Show by Sanskar Goyal <a href="https://youtu.be/BxbgmP6ScmY?si=7hSrCWOhOWHc0-q5">Click Here</a>
         </p>
       </div>
     </div>

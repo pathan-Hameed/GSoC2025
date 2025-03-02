@@ -311,7 +311,7 @@ export default function Homepage() {
             </div>
           </div>
         </div>
-        <p className="home-links">What is Open Source Organisation? <a href="">Learn Here</a></p>
+        <p className="home-links">What is Open Source Organisation? <a href="https://www.youtube.com/@GoogleDevelopers/videos">Learn Here</a></p>
       </div>
 
       <div className="working-section">
@@ -375,7 +375,7 @@ export default function Homepage() {
         </div>
       </div>
       <div className="last-link">
-        <p className="home-links">How to Apply? <a href="">Learn Here</a></p>
+        <p className="home-links">How to Apply? <a href="https://youtu.be/YN7uGCg5vLg?si=jg7XxJ84zPzPpdgd">Learn Here</a></p>
         <p className="home-links"> For GSoC related refferals, Success stories video links and more...Visit   <a href="/help">Help Section</a></p>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./timeline.css";
+import { Link } from "react-router-dom";
 
 const events = [
   {
@@ -76,8 +77,8 @@ export default function Timeline() {
           </div>
         ))}
       </div>
-      <p className="home-links">2025 GSoC Organisations Announced  <a href="/timeline">Explore Here</a></p>
-      <p className="home-links"> For GSoC related refferals, Success stories video links and more...Visit   <a href="/help">Help Section</a></p>
+      <p className="home-links">2025 GSoC Organisations Announced  <Link to="/timeline">Explore Here</Link></p>
+      <p className="home-links"> For GSoC related refferals, Success stories video links and more...Visit   <Link to="/help">Help Section</Link></p>
     </div>
   );
 }
