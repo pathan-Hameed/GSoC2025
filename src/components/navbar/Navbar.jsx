@@ -38,7 +38,6 @@ export default function Navbar() {
         <div className="links">
           <Link to="/" className="nav-link" onClick={closeNavbar}>Home</Link>
           <Link to="/getstarted" className="nav-link" onClick={closeNavbar}>Get Started</Link>
-          <Link to="/organizations" className="nav-link" onClick={closeNavbar}> Mentor Organizations</Link>
           <Link to="/timeline" className="nav-link" onClick={closeNavbar}>Program Timeline</Link>
           <Link to="/about" className="nav-link" onClick={closeNavbar}>About</Link>
           <Link to="/help" className="nav-link" onClick={closeNavbar}>Help</Link>

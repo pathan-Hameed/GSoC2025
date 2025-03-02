@@ -4,6 +4,7 @@
 }
 #homepage {
   background: #f3f3f3;
+  width: 100%;
 }
 
 .navbar {
@@ -52,13 +53,22 @@
   background: #4285f4;
 }
 
-.since-content p {
-  color: white;
+.home-links {
+  color: rgb(0, 0, 0);
   font-size: 18px;
   width: 732;
-  padding: 0;
+  padding: 20px 0px;
   margin: 0;
   line-height: 150%;
+}
+
+.home-links a{
+  color:rgb(3, 88, 60);
+  font-family: monospace;
+}
+
+.home-links a:hover {
+  color: rgb(7, 222, 150);
 }
 
 
@@ -215,28 +225,6 @@
   color: #555;
 }
 
-.view-bttn {
-    margin: 50px 0;
-    padding: 15px 0;
-    width: 450px;
-    height: 50px;
-    border: none;
-    border-radius: 10px;
-    background: rgba(0, 128, 0, 0.813);
-    color: white;
-    font-family: poppins;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Softer shadow Box shadow */
-    transition: box-shadow 0.3s ease-in-out;
-}
-
-.view-bttn:hover {
-      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
-}
-
 .eligible-section {
   padding: 100px 250px;
   padding-right: 100px;
@@ -288,6 +276,7 @@
 
 
 .working-section {
+  margin-top: 50px;
   padding: 50px 250px;
   padding-top: 100px;
   height: fit-content;
@@ -375,4 +364,9 @@
   font-family: poppins;
   letter-spacing: 1px;
   word-spacing: 2px;
+}
+
+.last-link {
+  background: #f3f3f3;
+  padding: 100px 250px;
 }

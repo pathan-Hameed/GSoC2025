@@ -101,7 +101,8 @@ export default function GetStarted() {
             </div>
           </div>
         </div>
-      <Link to="/timeline" className="view-bttn">View Timeline</Link>
+        <p className="home-links">Know the Timeline  <a href="/timeline">Click Here</a></p>
+        <p className="home-links"> For GSoC related refferals, Success stories video links and more...Visit   <a href="/help">Help Section</a></p>
       </div>
     </div>
   );

@@ -1,0 +1,29 @@
+.help-section {
+    background: #f3f3f3;
+}
+
+.help-title {
+    padding: 150px 250px;
+    width: 100%;
+    height: 350px;
+    background: #008fa5;
+  font-family: monospace;
+  font-size: 56px;
+  font-weight: 500;
+  color: white;
+  text-align: left;
+  }
+
+  .help-section .home-links {
+    padding: 30px 250px;
+    color: blue;
+  }
+
+  .help-section .home-sub-title {
+    padding: 0px 250px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 600;
+  }

@@ -77,3 +77,8 @@
   font-size: 16px;
   color: #333;
 }
+
+.timeline-section .home-links {
+  padding: 50px 250px;
+  text-align: center;
+}

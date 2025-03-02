@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link } from "react-router-dom";  // Import Link
+import { Link } from "react-router-dom"; // Import Link
 import "./Homepage.css";
 
 export default function Homepage() {
@@ -93,6 +93,10 @@ export default function Homepage() {
             from 133 countries. Google Summer of Code has produced over 43
             million lines of code for 800+ open source organizations.
           </p>
+          <p className="home-links">
+           New to GSoC? {" "}
+            <a href="https://youtu.be/Wxjxwx7mqaI?si=3K_cLzJZA9YbPKWf">Introduction to Google Summer Of Code.</a>
+          </p>
         </div>
       </div>
 
@@ -119,7 +123,7 @@ export default function Homepage() {
                   </p>
                 </div>
               </div>
-            </div> 
+            </div>
             <div className="col">
               <div className="card">
                 <img
@@ -135,7 +139,7 @@ export default function Homepage() {
                   </p>
                 </div>
               </div>
-            </div> 
+            </div>
             <div className="col">
               <div className="card">
                 <img
@@ -145,13 +149,10 @@ export default function Homepage() {
                 />
                 <div className="card-body">
                   <h5 className="card-title">SciKit-Learn</h5>
-                  <p className="card-text">
-                    {" "}
-                    Machine learning for Python.
-                  </p>
+                  <p className="card-text"> Machine learning for Python.</p>
                 </div>
               </div>
-            </div> 
+            </div>
             <div className="col">
               <div className="card">
                 <img
@@ -160,21 +161,21 @@ export default function Homepage() {
                   alt="blender logo"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">ML4SCI (Machine Learning for Science) </h5>
+                  <h5 className="card-title">
+                    ML4SCI (Machine Learning for Science){" "}
+                  </h5>
                   <p className="card-text">
                     {" "}
                     AI/ML applications in scientific research.
                   </p>
                 </div>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
 
         <div className="domain-section">
-          <h3 className="domain-title">
-           Web Development & Frameworks
-          </h3>
+          <h3 className="domain-title">Web Development & Frameworks</h3>
           <div className="row row-cols-1 row-cols-md-2 g-4">
             <div className="col">
               <div className="card">
@@ -185,13 +186,10 @@ export default function Homepage() {
                 />
                 <div className="card-body">
                   <h5 className="card-title">Django Software Foundation</h5>
-                  <p className="card-text">
-                    {" "}
-                    Python’s leading web framework.
-                  </p>
+                  <p className="card-text"> Python’s leading web framework.</p>
                 </div>
               </div>
-            </div> 
+            </div>
             <div className="col">
               <div className="card">
                 <img
@@ -207,7 +205,7 @@ export default function Homepage() {
                   </p>
                 </div>
               </div>
-            </div> 
+            </div>
             <div className="col">
               <div className="card">
                 <img
@@ -223,7 +221,7 @@ export default function Homepage() {
                   </p>
                 </div>
               </div>
-            </div> 
+            </div>
             <div className="col">
               <div className="card">
                 <img
@@ -239,13 +237,11 @@ export default function Homepage() {
                   </p>
                 </div>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
         <div className="domain-section">
-          <h3 className="domain-title">
-          Scientific Computing & Data Science
-          </h3>
+          <h3 className="domain-title">Scientific Computing & Data Science</h3>
           <div className="row row-cols-1 row-cols-md-2 g-4">
             <div className="col">
               <div className="card">
@@ -262,7 +258,7 @@ export default function Homepage() {
                   </p>
                 </div>
               </div>
-            </div> 
+            </div>
             <div className="col">
               <div className="card">
                 <img
@@ -278,7 +274,7 @@ export default function Homepage() {
                   </p>
                 </div>
               </div>
-            </div> 
+            </div>
             <div className="col">
               <div className="card">
                 <img
@@ -294,7 +290,7 @@ export default function Homepage() {
                   </p>
                 </div>
               </div>
-            </div> 
+            </div>
             <div className="col">
               <div className="card">
                 <img
@@ -303,19 +299,20 @@ export default function Homepage() {
                   alt="OSGeo logo"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">OSGeo (Open Source Geospatial Foundation)</h5>
+                  <h5 className="card-title">
+                    OSGeo (Open Source Geospatial Foundation)
+                  </h5>
                   <p className="card-text">
                     {" "}
                     Geographic information systems (GIS).
                   </p>
                 </div>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
-        <Link to="/organizations" className="view-bttn">Explore Mentor Organizations</Link>
+        <p className="home-links">What is Open Source Organisation? <a href="">Learn Here</a></p>
       </div>
-
 
       <div className="working-section">
         <div className="section-title">
@@ -377,31 +374,9 @@ export default function Homepage() {
           </ol>
         </div>
       </div>
-
-      <div className="link-section">
-        <div className="link-title">Frequently Asked Questions</div>
-        <ul className="links">
-          <a href="">
-            <li className="link-box">
-              How can I increase my chances of getting selected for GSoC?
-            </li>
-          </a>
-          <a href="">
-            <li className="link-box">
-              How do I choose the right organization and project?
-            </li>
-          </a>
-          <a href="">
-            <li className="link-box">
-              What should I include in my GSoC proposal?
-            </li>
-          </a>
-          <a href="">
-            <li className="link-box">
-              How much coding experience is required for GSoC?
-            </li>
-          </a>
-        </ul>
+      <div className="last-link">
+        <p className="home-links">How to Apply? <a href="">Learn Here</a></p>
+        <p className="home-links"> For GSoC related refferals, Success stories video links and more...Visit   <a href="/help">Help Section</a></p>
       </div>
     </div>
   );
