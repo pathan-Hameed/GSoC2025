@@ -376,7 +376,7 @@ export default function Homepage() {
       </div>
       <div className="last-link">
         <p className="home-links">How to Apply? <a href="https://youtu.be/YN7uGCg5vLg?si=jg7XxJ84zPzPpdgd">Learn Here</a></p>
-        <p className="home-links"> For GSoC related refferals, Success stories video links and more...Visit   <a href="/help">Help Section</a></p>
+        <p className="home-links"> For GSoC related refferals, Success stories video links and more...Visit   <Link href="/help">Help Section</Link></p>
       </div>
     </div>
   );
