@@ -39,7 +39,7 @@ export default function Navbar() {
           <Link to="/" className="nav-link" onClick={closeNavbar}>Home</Link>
           <Link to="/getstarted" className="nav-link" onClick={closeNavbar}>Get Started</Link>
           <Link to="/timeline" className="nav-link" onClick={closeNavbar}>Program Timeline</Link>
-          <Link to="/about" className="nav-link" onClick={closeNavbar}>About</Link>
+          <Link to="/About" className="nav-link" onClick={closeNavbar}>About</Link>
           <Link to="/help" className="nav-link" onClick={closeNavbar}>Help</Link>
         </div>
       </div>

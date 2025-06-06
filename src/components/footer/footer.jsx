@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div>
+      <div className="footer">
       <ul className="external-links">
         <li>
           <a href="https://youtu.be/Wxjxwx7mqaI?si=wLviEqD8LEflygv5">
@@ -23,7 +24,7 @@ export default function Footer() {
 
       <ul className="internal-links">
         <li>
-          <a href="#homepage">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <Link to="/getstarted">Get Started</Link>
@@ -36,7 +37,7 @@ export default function Footer() {
           <a href="https://summerofcode.withgoogle.com/programs/2025/organizations"> Mentor Organisations</a>
         </li>
         <li>
-          <Link to="/Questions">Q&A</Link>
+          <Link to="/QA">Q&A</Link>
         </li>
       </ul>
 
@@ -54,6 +55,9 @@ export default function Footer() {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
+      </div>
+
+      <p className="copyright">2025@CodeCompanion</p>
 
     </div>
   );
